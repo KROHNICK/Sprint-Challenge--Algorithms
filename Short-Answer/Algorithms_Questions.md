@@ -11,6 +11,8 @@ a)  a = 0
       a = a + n * n
 ```
 
+this code is saying while i\*n^2 < n^3, meaning it'll run n times, n^1
+
 ```
 b)  sum = 0
     for i in range(n):
@@ -24,6 +26,8 @@ b)  sum = 0
             sum += 1
 ```
 
+this code has 4 nested loops the length of n and adding 1 as it goes into the next loop, n^4
+
 ```
 c)  def bunnyEars(bunnies):
       if bunnies == 0:
@@ -31,6 +35,8 @@ c)  def bunnyEars(bunnies):
 
       return 2 + bunnyEars(bunnies-1)
 ```
+
+if the input is, 0, -1 or and odd negative number, it will return 0 eventually, else if will loop eventually. so if n<-1, runtime is n/2
 
 ## Exercise II
 
